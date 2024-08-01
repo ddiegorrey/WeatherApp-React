@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9rem 1.5rem;
+  background-color: gray;
+  align-items: center;
+}
+.navbar img {
+  width: auto;
+  transition: transform 0.3s ease;
+}
+.navbar img:hover {
+  transform: scale(1.3);
+}
+
+.navbar form {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-between;
+  height: 1.8rem;
+}
+
+.navbar form button {
+  border: none;
+  background-color: aquamarine;
+  border-radius: 12px;
+  color: #fff;
+  width: 3rem;
+  transition: transform 0.5s ease;
+}
+.navbar form button:hover {
+  transform: scale(1.2);
+}
+.navbar form input {
+  border-radius: 12px;
+  border: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+.navbar a:hover {
+  transform: scale(1.3);
+}

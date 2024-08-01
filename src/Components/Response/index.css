@@ -1,0 +1,19 @@
+.response {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.response .country {
+  font-size: 3.5rem;
+}
+
+.response .degrees {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.response .description {
+  font-size: 2rem;
+}
